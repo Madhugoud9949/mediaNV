@@ -1,0 +1,191 @@
+.content {
+  padding: 20px;
+  background-color: #fff;
+  margin-left: 190px;
+  margin-top: 52px;
+  height: calc(100vh - 50px);
+  width: 100%;
+  position: absolute;
+}
+
+.bid-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  margin-right: 20px;
+}
+
+.bid-header2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+  
+}
+
+.header-item {
+  text-align: center;
+  padding: 5px;
+  margin-left: 10px;
+  margin-top: 0;
+}
+
+.header2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8f8f8;
+  padding: 10px;
+}
+
+.header-item button {
+  display: flex;
+  align-items: center;
+}
+
+.header-item button svg {
+  margin-right: 5px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin-right: -43px;
+  margin-left: -0px;
+}
+
+.search-button {
+  background-color: #d5e7ee;
+  color: #6f1b1b;
+  border: none;
+  border-radius: 15px 15px 15px 15px;
+  cursor: pointer;
+  padding: 8px 15px;
+}
+
+.search-button:hover {
+  background-color: #00408a;
+}
+
+.table-header {
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  background-color: #171a75;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+.table-header > div {
+  text-align: center;
+  padding: 10px;
+
+}
+
+.table-header > div:last-child {
+  border-right: none;
+}
+
+.bid-details-container {
+  padding: 20px;
+  background-color: hsla(187, 65%, 72%, 0.929);
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.bid-details-container div {
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.fas,
+.far,
+.fab {
+  font-size: 24px;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.table-header > div {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  text-overflow: ellipsis;
+}
+
+.header-item {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #00408a;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  background-color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #171a75;
+}
+
+.dropdown-icon {
+  margin-left: 5px;
+}
+
+.table-container {
+  width: 100%;
+  margin-bottom: 20px;
+  overflow-x: auto;
+}
+
+.table-row {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.table-row > div {
+  flex: 1;
+  text-align: center;
+  height: 80px;
+  padding: 5px;
+  font-weight: 600;
+}
+
+.bid-details {
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+.bid-details-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.bid-details-container > div {
+  margin-bottom: 5px;
+}
+
+.view-details a {
+  color: blue;
+  text-decoration: none;
+  cursor: pointer;
+}
